@@ -1,0 +1,11 @@
+# Ignore virtual environment
+venv/
+backup-repo/
+# Ignore Python bytecode files
+*.pyc
+venv/lib/python3.10/site-packages/playwright/driver/node
+# Ignore node modules (if any)
+node_modules/
+
+# Ignore other unnecessary files
+*.log
